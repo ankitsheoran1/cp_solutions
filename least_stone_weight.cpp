@@ -1,4 +1,7 @@
-  int lastStoneWeightII(int A[],int n) {
+#question link is "https://leetcode.com/contest/weekly-contest-137/problems/last-stone-weight-ii/"  
+
+
+int lastStoneWeightII(int A[],int n) {
         boolean[] dp = new boolean[1501];
         dp[0] = true;
         int sum = 0;
